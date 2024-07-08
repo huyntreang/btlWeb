@@ -1,0 +1,229 @@
+﻿
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.content {
+    margin-top: 20px;
+}
+
+
+.banner {
+    /* border: 1px solid black; */
+    width: 1000px;
+}
+
+.bannerimg {
+    width: 100%;
+}
+
+.sanPham1 {
+    margin-top: 3%;
+}
+
+    .sanPham1 p {
+        padding: 5px 5px;
+        font-size: 1.5rem;
+        font-weight: 530;
+        color: #00408f;
+    }
+
+.sanPham {
+    display: flex;
+}
+
+.sp {
+    /* border: 1px solid black; */
+    width: 314px;
+    height: 314px;
+    text-align: center;
+}
+
+.sp__img {
+    max-width: 100%;
+    max-height: 80%;
+    border: 1px solid rgb(183, 179, 179);
+}
+
+.sp__name {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.sp__price {
+    font-size: 1.3rem;
+    color: #0062d5;
+}
+
+.sanPham2 p {
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    font-weight: 530;
+    color: #00408f;
+}
+
+.sanPham3 p {
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    font-weight: 530;
+    color: #00408f;
+}
+
+.comboCheap-img1 img, .comboCheap-img2 img, .comboCheap-img3 img, .comboCheap-img4 img, .comboCheap-img5 img {
+    cursor: pointer;
+}
+
+.uudai {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.uudai__wrap {
+    display: flex;
+    max-width: 525px;
+    max-height: 600px;
+}
+
+
+.uudai img {
+    padding: 10px;
+    max-height: 575px;
+}
+
+.footer {
+    background-color: #a6def7;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.contactInfor {
+    margin-left: 12%;
+}
+
+.footer-content-contact img {
+    width: 101%;
+    margin-top: 10px;
+}
+
+.footer-content-contact p {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 31px;
+}
+
+.footer-content-contact .lienHe {
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.footer-content-contactCall img,
+.footer-content-contactMail img {
+    width: 20px;
+    height: 15px;
+}
+
+.footer-content-contactIcon img {
+    width: 40px;
+    height: 25px;
+    margin-left: -10px;
+    object-fit: contain;
+}
+
+.footer-content-listProduct,
+.footer-content-Support,
+.footer-content-AboutBekit {
+    margin-top: 40px;
+}
+
+    .footer-content-listProduct p,
+    .footer-content-Support p,
+    .footer-content-AboutBekit p {
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+
+    .footer-content-listProduct li,
+    .footer-content-Support li,
+    .footer-content-AboutBekit li {
+        list-style: none;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+/* Thay đổi cho các kích thước màn hình nhỏ hơn */
+@media only screen and (min-width: 769px) and (max-width:992px) {
+    .uudai img {
+        max-height: 463px;
+    }
+
+    .sp.comboCheap-img1.col.l-2-4.m-2-4.t-2-4.c-6 {
+        width: 20%;
+        height: 10%;
+    }
+
+    .sp.comboCheap-img1.col.l-2-4.m-2-4.t-2-4.c-2-4 {
+        width: 20%;
+        height: 10%;
+    }
+
+    element.style {
+        font-size: 1rem;
+    }
+
+    .uudai img {
+        width: 108%;
+    }
+
+    span#NameAccount {
+        font-size: 1rem;
+    }
+
+    .account_icon{
+        display: flex;
+    }
+}
+@media (max-width: 768px) {
+    .uudai img {
+        margin-left: 12%;
+    }
+
+    .sp.comboCheap-img1.col.l-2-4.m-2-4.t-2-4.c-2-4 {
+        height: 10%;
+    }
+
+    .uudai img {
+        width: 118%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .sp.comboCheap-img1 {
+        width: 20%;
+        height: 0%;
+    }
+
+    .uudai img{
+        width: 107%;
+    }
+}
+
+@media (min-width: 1200px){
+    
+}

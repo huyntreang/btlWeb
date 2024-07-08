@@ -1,0 +1,72 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #a6def7;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.contactInfor {
+    margin-left: 12%;
+}
+
+.footer-content-contact img {
+    width: 101%;
+    margin-top: 10px;
+}
+
+.footer-content-contact p {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 31px;
+}
+
+.footer-content-contact .lienHe {
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.footer-content-contactCall img,
+.footer-content-contactMail img {
+    width: 20px;
+    height: 15px;
+}
+
+.footer-content-contactIcon img {
+    width: 40px;
+    height: 25px;
+    margin-left: -10px;
+    object-fit: contain;
+}
+
+.footer-content-listProduct,
+.footer-content-Support,
+.footer-content-AboutBekit {
+    margin-top: 40px;
+}
+
+    .footer-content-listProduct p,
+    .footer-content-Support p,
+    .footer-content-AboutBekit p {
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+
+    .footer-content-listProduct li,
+    .footer-content-Support li,
+    .footer-content-AboutBekit li {
+        list-style: none;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
